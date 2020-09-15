@@ -1,3 +1,5 @@
+project('spirv-cross-c-shared')
+
 cmake = import('cmake')
 
 project = cmake.subproject('.')
