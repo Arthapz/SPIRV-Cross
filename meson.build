@@ -2,5 +2,5 @@ cmake = import('cmake')
 
 project = cmake.subproject('.')
 
-spirv-cross-c-shared = project.dependency('spirv-cross-c-shared')
+spirv_cross_c_shared = project.dependency('spirv-cross-c-shared')
 
